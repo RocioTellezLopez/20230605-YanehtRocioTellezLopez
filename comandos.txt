@@ -1,0 +1,45 @@
+  377  git init
+  378  git remote add origin git@github.com:RocioTellezLopez/20230605-YanehtRocioTellezLopez.git
+  379  git branch -M main
+  380  git push -u origin main
+  381  touch comando.txt main.js index.html
+  382  ls
+  383  mv comando.txt comandos.txt
+  384  ls
+  385  git status
+  386  git add .
+  387  git commit -m "commit 01 de YanehtRocioTellezLopez"
+  388  git push
+  389  git push --set-upstream origin main
+  390  git branch feature
+  391  git checkout feature
+  392  mkdir Hardware Software SeguridadInformatica
+  393  ls
+  394  cd Hardware/
+  395  resumen.txt
+  396  touch resumen.txt
+  397  cd ..
+  398  cd Software/
+  399  touch resumen.txt
+  400  cd ..
+  401  cd  SeguridadInformatica/
+  402  touch resumen.txt
+  403  ls
+  404  cd ..
+  405  ls -R
+  406  git status
+  407  git add .
+  408  git commit -m "commit 02 de YanehtRocioTellezLopez"
+  409  git push
+  410  git push --set-upstream origin feature
+  411  git checkout main
+  412  ls
+  413  mv main.js resumenHardware.txt
+  414  ls
+  415  mv index.html resumenSoftware.txt
+  416  ls
+  417  gedit
+  418  nano
+  419  nano resumenSoftware.txt
+  420  nano resumenHardware.txt
+  421  history
